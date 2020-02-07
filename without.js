@@ -1,5 +1,5 @@
 const eqArrays = function(arr1, arr2) {
-  if (arr1.length != arr2.length) {
+  if (arr1.length !== arr2.length) {
     return false;
   }
   for (let i = 0; i < arr1.length; i++) {
@@ -20,7 +20,7 @@ const assertArraysEqual = function(arr1, arr2) {
 
 const without = function(sourceArr, itemToRemoveArr) {
   let res = [];
-  for (item of sourceArr) {
+  for (let item of sourceArr) {
     if (!itemToRemoveArr.includes(item)) {
       res.push(item);
     }

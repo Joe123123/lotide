@@ -1,5 +1,5 @@
 const eqArrays = function(arr1, arr2) {
-  if (arr1.length != arr2.length) {
+  if (arr1.length !== arr2.length) {
     return false;
   }
   for (let i = 0; i < arr1.length; i++) {
@@ -20,9 +20,9 @@ const assertArraysEqual = function(arr1, arr2) {
 
 const flatten = function(arr) {
   let res = [];
-  for (item of arr) {
+  for (let item of arr) {
     if (Array.isArray(item)) {
-      for (el of item) {
+      for (let el of item) {
         res.push(el);
       }
     } else {
@@ -34,7 +34,7 @@ const flatten = function(arr) {
 
 const flattenDeep = function(arr) {
   let res = [];
-  for (item of arr) {
+  for (let item of arr) {
     if (Array.isArray(item)) {
       res = res.concat(flattenDeep(item));
     } else {
