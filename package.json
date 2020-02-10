@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@joe123123/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "a mini clone of lodash",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -14,7 +14,10 @@
     "url": "git+https://github.com/Joe123123/lotide.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Joe Wang <wangz2266@gmail.com> (http://github.com/Joe123123)",
+  "contributors": [
+    "Artur (https://github.com/bunge12)"
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Joe123123/lotide/issues"
