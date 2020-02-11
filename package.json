@@ -13,7 +13,10 @@
     "type": "git",
     "url": "git+https://github.com/Joe123123/lotide.git"
   },
-  "keywords": [],
+  "keywords": [
+    "lodash",
+    "lotide"
+  ],
   "author": "Joe Wang <wangz2266@gmail.com> (http://github.com/Joe123123)",
   "contributors": [
     "Artur (https://github.com/bunge12)"
